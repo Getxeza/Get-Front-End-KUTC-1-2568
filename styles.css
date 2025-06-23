@@ -1,0 +1,65 @@
+*{
+color: #dc88d5;
+}
+
+
+body{
+    background: url(/doflamingo-v0-hdwwwrb9lrne1.jpeg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px;
+  opacity: 0.5;
+}
+
+#realname {
+    background-color: aqua;
+}
+.gender{
+
+background-color: aquamarine;    
+}
+label {
+
+    color: #0e81e5;
+}
+p{
+
+    color: #83a5fa;
+}
+h1{
+text-decoration: underline;
+text-shadow: 1px 5px 5px black;
+border-style: solid;
+border-color: chartreuse;
+border-width: 10px;
+border-radius: 25px;
+box-shadow: 5px 10px red   ;
+}
+
+.paragraph {
+  text-indent: 20%;
+    width: 500px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.textpo{
+
+    background-color: chocolate;
+    width: 200px;
+    height: 65px;
+    border: 5px;
+    overflow: auto;
+}
+
+.content{
+background-color: gold;
+border: 2px rebeccapurple;
+/* padding: 100px; */
+/* padding-top: 40px;
+padding-left: 40px; */
+
+margin: 20px;
+padding: 20px;
+
+}
