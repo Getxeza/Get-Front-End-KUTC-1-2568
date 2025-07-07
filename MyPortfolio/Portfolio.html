@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>โปรไฟล์ของฉัน</title>
+  <link rel="stylesheet" href="/MyPortfolio/Portfolio.css">
+
+</head>
+<body>
+
+  <!-- ส่วนหัว (Header) -->
+  <header>
+    <style>
+        .circle{
+            border-radius: 100%
+        }
+        </style>
+    <img src="/Unknown.jpg" alt="circle ของฉัน" class="circle">
+    
+    <h1>Natnicha khunrat</h1>
+    <p>Computer major</p>
+    <p>Department of Information Technology</p>
+    <p>Number 009</p>
+  </header>
+
+  <!-- ส่วนทักษะ (My Skills) -->
+  <section class="skill">
+    <h2>my skills</h2>
+    <ul>
+      <li>   HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git &amp; Github</li>
+    </ul>
+  </section>
+
+  <!-- ส่วนประวัติการศึกษา (Education) -->
+  
+    <h2>educational record</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>year</th>
+          <th>educational institution</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2561–2564</td>
+          <td>Buriratdrunwittaya Municipality School 1</td>
+        </tr>
+        <tr>
+          <td>2565–ปัจจุบัน</td>
+          <td>Kumuang Technical College</td>
+        </tr>
+      </tbody>
+    </table>
+  
+
+  <!-- ส่วนติดต่อ (Contact Me) -->
+  <section>
+        <h2>Contact me</h2>
+        <form>
+            <label for="name">name</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Contact name:</label>
+            <select id="subject" name="subject">
+                <option>Inquire about work</option>
+                <option>Criticize the work</option>
+                <option>General matters</option>
+            </select>
+
+            <label for="message">message:</label>
+            <textarea id="message" name="message" placeholder="Type your message here..."></textarea>
+
+            <button type="submit">Send a message</button>
+        </form>
+    </section>
+
+</body>
+</html>

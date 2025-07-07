@@ -1,0 +1,73 @@
+img {
+    width: 250px;
+    height: 250px;
+}
+
+body {
+text-align: center ;
+background-color: #eaf1a4;
+}
+
+table{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+    
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #f87d7d;
+    padding: 20px;
+    border: 1px solid #f08080;
+    border-radius: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+header {
+background-image: url(https://www.jps2013.com/wp-content/uploads/2020/10/FRE-C-34.jpg);
+color: #eeecec;
+}
+h2,h1 {
+
+    background-color: #f08080;
+    border-radius: 50px;
+    width: 400px;
+    margin-left: 50% ;
+    transform: translateX(-50%);
+    
+    
+}
+
+th {
+
+background-color: #f36154;
+}
